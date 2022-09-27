@@ -1,0 +1,135 @@
+/*-------------CAJAS-------------------*/
+main{
+    width: 100vw;
+    display: flex;
+    display: block;
+    padding-top: 10px;
+}
+
+main .contenedor{
+    width: 100vw;
+    height: 505px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .contenedor div{
+    height: 60%;
+    width: 60%;
+}
+
+main .contenedor h3{
+    height: 300px;
+    width: 300px;
+    margin-top: 3px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+main .caja1 h3{
+    background-color: var(--second-color);
+
+}
+
+main .caja2 h3{
+    background-color: var(--second-color);
+}
+
+
+main .caja3 h3{
+    background-color: var(--second-color);
+}
+
+
+main .texto1 h3{
+    width: 10px;
+    height: 20px;
+}
+
+
+
+
+
+
+/*-------------IMG-------------------*/
+
+
+
+
+main .galeria{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+main .galeria h4{
+    text-align: center;
+    font-size: 18px;
+}
+
+main .galeria p{
+    text-align: center;
+    font-size: 13px;
+}
+
+main .galeria button{
+    width: 100px;
+    color: var(--light-color);
+    padding: 8px;
+    margin-top: 15px;
+    background: var(--primary-color);
+    border: 3px solid var(--light-color);
+    border-radius: 10px;
+    color: var(--light-color);
+}
+
+
+main .galeria button:hover{
+    background: rgba(4, 3, 3, 0.952);
+}
+
+
+main .galeria button{
+    background: var(--primary-color);
+}
+
+main .precio{
+    justify-content: space-between;
+}
+
+/*--------------Open 24/7/365.------------------*/
+
+main .content p{
+    padding: 0 10%;
+}
+
+main .content h2{
+    height: 40%;
+    width: 10px;
+    padding: 0 5%;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+main .boton button{
+    display: block;
+    width: 180px;
+    color: var(--second-color);
+    padding: 8px;
+    margin-top: 10px;
+    border: 3px solid var(--light-color);
+    border-radius: 5px;
+    border: 1px solid var(--light-color);
+    font-size: 15px;
+    color: var(--light-color);
+}
+
+main .boton button:hover{
+    background: rgba(216, 15, 15, 0.758);
+}
+
+main .boton button{
+    background: var(--second-color);
+}

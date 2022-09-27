@@ -1,0 +1,51 @@
+footer{
+    width: 30vw;
+    height: 190px;
+    align-self: flex-end;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--second-color);
+}
+
+footer p{
+    text-align: center;
+    padding-top: 5%;
+    color: var(--light-color);
+}
+
+footer span img{
+    padding-top: 50px;
+    margin-left: 10%;
+}
+
+footer div a{
+    color: var(--light-color);
+}
+
+
+/*------------------Dama-----------------------*/
+
+main .shop p{
+    width: 30vw;
+    height: 70%;
+    align-self: flex-end;
+    width: 60%;
+    margin-top: 20px;
+    background-color: var(--second-color);
+}
+
+main .shop h2{
+    margin-top: 30px;
+}
+
+main .shop{
+    margin-right: 30px;
+    margin-left: 30%;
+}
+
+
+footer div a{
+    width: 10px;
+    height: 10px;
+}
+
