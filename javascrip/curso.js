@@ -3,7 +3,7 @@
     "apellido":"flores",
     edas:26,
     correo:"blas.1234@hotmail.com"
-}*/
+}
 
 class minombre{
 
@@ -21,7 +21,7 @@ let ram=variable.ram;
 let fraces = Mi computadora ${variable.nombre} tiene ${variable.ram}de ram ;
 
 var elmemo = new miClase("Guillermo","Quiñones");
-var el chino = new laPersona("Yahir","Sandobal");*/
+var el chino = new laPersona("Yahir","Sandobal");
 
 function laFuncion(){
     return variabl1*2;
@@ -33,4 +33,11 @@ variabl1 => {return variabl1*2}
 
 variabl1 =>variabl1*2;
 
-()=>variabl1*2;
+()=>variabl1*2;*/
+
+var articulos =[
+    {nombre: "Bici", costo: 3000},
+    {nombre: "Tv", costo: 2500},
+    {nombre: "Libro", costo: 320},
+    {nombre: "Celular",costo}
+];
