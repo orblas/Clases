@@ -11,8 +11,12 @@ main .contenedor{
     height: 505px;
     padding: 0 100px;
     display: flex;
+    border-radius: 5px;
     justify-content: space-between;
+    border-radius: 3px;
 }
+
+
 
 main .contenedor div{
     height: 60%;
@@ -30,6 +34,7 @@ main .contenedor h3{
 
 main .caja1 h3{
     background-color: var(--second-color);
+    border-radius: 10px;
 
 }
 
