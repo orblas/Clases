@@ -31,6 +31,20 @@ header{
     z-index: 1;
 }
 
+header section{
+    width: 0px;
+    margin-bottom: 3px;
+}
+
+header .contenedores h4 {
+    margin-top: 10px;
+}
+
+header .contenedores{
+    width: 98%;
+    margin: auto;
+}
+
 header .covid{
     width: 100%;
     height: 75px;
@@ -60,6 +74,7 @@ header .covid h4{
 
 header .covid p{
     font-size: 18px;
+    float: left;
 }
 
 header .menu{
@@ -125,4 +140,10 @@ header .menu div button span{
 section{
     width: 100%;
     margin-bottom: 5px;
+}
+
+@media (min-width:1024px){
+    .contenedores{
+        width: 1000px;
+    }
 }

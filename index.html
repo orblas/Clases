@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="img/fontello-6ad433ca/css/fontello.css">
     <link rel="stylesheet" href="css/diseño.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/foter.css">
+    <link rel="stylesheet" href="css/menu.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,25 +17,26 @@
 
 
     <header>
-        <section class="covid">
-            <button>
-                <h4>Announcement</h4>
-            </button>
-            <p>How were responding to COVID-19</p>
-        </section>
-        <section for="menu" class="menu">
-            <span><img src="img/logo.svg" alt=""></span>
-            <div>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Shop</a>
-                <a href="">Donate</a>
-                <a href="">Contact</a>
+        <div class="contenedores">
+            <section class="covid">
                 <button>
-                    <span></span>
+                    <h4>Announcement</h4>
                 </button>
-            </div>
-        </section>
+                <p>How were responding to COVID-19</p>
+            </section>
+            <section for="menu" class="menu">
+                <span><img src="img/logo.svg" alt=""></span>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu-outline" for="menu-bar"></label>
+                <nav class="menu2">
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Shop</a>
+                        <a href="">Donate</a>
+                        <a href="">Contact</a>
+                </nav>
+            </section>
+        </div>
     </header>
     <!----------------------------------------------------->
 
@@ -49,13 +52,13 @@
                 <button>Shop Merch</button>
             </div>
         </section>
-        <section class="articul">
-            <div>
-                <p>
+        <section class="orden">
+            <div class="articul">
+                <p class="argum1">
                     <span>WAYS TO SUPPORT</span>
                     <h2>Support Acme Outdoors.</h2>
                 </p>
-                <p>
+                <p class="argum2">
                     COVID-19 has forced us to close our retail space, but we need support from patrons like yourself now more than ever. Below, we’ve listed the best ways to help us through this season.
                 </p>
             </div>
@@ -153,12 +156,12 @@
 
 
     <footer>
-        <div>
+        <div class="contenedor">
             <span><img src="img/logo.svg" alt=""></span>
-            <div>
-                <a href=""><img src="img/gorjeo.svg" alt=""></a>
-                <a href="">insta</a>
-                <a href="">face</a>
+            <div class="sociales">
+                <a href="https://twitter.com/i/flow/login" class="icon-twitter-squared"><img src="img/gorjeo.svg" alt=""></a>
+                <a href="https://www.facebook.com/" class="icon-facebook-circled"></a>
+                <a href="https://www.instagram.com/" class="icon-instagram"></a>
             </div>
         </div>
         <p>Made In <a href="">Webflow.</a>© 2020.</p>
